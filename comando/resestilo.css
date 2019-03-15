@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  width: 1200px;
+
+}
+
+header {
+  height: 20vh;
+  background-color: purple;
+  border-color: black;
+}
+
+main {
+  display: inline-block;
+  width: 100%;
+}
+
+div.j {
+  width: 20.84%;
+  border: solid;
+  background-color: red;
+  float: left;
+  border-color: black;
+}
+
+div.b {
+  width: 66.66%;
+  border: solid;
+  background-color: white;
+  float: left;
+  border-color: black;
+
+
+}
+
+div.c {
+  width: 10.5%;
+  border: solid;
+  background-color: pink;
+  float: left;
+  border-color: black;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+p {
+  font-size: 0.81em;
+}
+strong {
+  font-size: 1.06em;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 1.25em;
+    width: 95%;
+  }
+
+  div.j {
+    width: 40%;
+    float: left;
+  }
+
+  div.b {
+    width:55%;
+    float: right;
+
+  }
+
+  div.c {
+    width: 100%;
+
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  div.j, div.b, div.c {
+    width: 100%;
+    font-size: 1.3em;
+  }
+
+}
+/*esto sirve para adaptarlo a tablets*/
+
+@media (max-width: 960px) {
+  /*elcontenedor {} y cambia de tamaño al 50%...
+  width: 49%;
+}
+
+/*media para celus*/
+
+@media (max-width: 432px){
+  /*el elcontenedor {} y cambio el width para el 100%
+}

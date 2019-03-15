@@ -1,0 +1,156 @@
+body {
+    background-image:url("img/bg-2.png");
+  }
+div.todo {
+  width: 960px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  position: relative;
+  top: 0;
+  width: 960px;
+  display: inline-block;
+}
+
+div.logo_header {
+  position: absolute;
+  top: 0 auto;
+  z-index: 20;
+  }
+
+nav {
+  background-color: red;
+  text-decoration: none;
+  position: relative;
+  top: 5px;
+  z-index: 10;
+  margin-left: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+
+}
+
+header ul li{
+    display:inline-block;
+    text-decoration: none;
+    margin: 20px;
+    }
+
+main {
+  width: 960px;
+  background-color: white;
+  margin-top: 100px;
+  box-sizing: border-box;
+  }
+
+main article {
+  width: 300px;
+  display: inline-block;
+  }
+
+main article.cero {
+  background-image: url("img/img-phone-01.jpg");
+  margin-left: 15px;
+}
+
+main article.uno {
+  background-image: url("img/img-phone-02.jpg");
+  margin-left: 10px;
+}
+
+main article.dos {
+  background-image: url("img/img-phone-03.jpg");
+  margin-left: 10px;
+  margin-top: 10px;
+  }
+
+main article.tres {
+  background-image: url("img/img-phone-02.jpg");
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main article.cuatro {
+  background-image: url("img/img-phone-03.jpg");
+  margin-left: 10px;
+  }
+
+
+main article.cinco {
+  background-image: url("img/img-phone-01.jpg");
+  margin-left: 10px;
+
+}
+
+main article.cero p.ar {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  font-style: italic;
+  font-weight: bold;
+  clear: both;
+}
+
+main article.uno p.ar {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  font-style: italic;
+  font-weight: bold;
+  clear: both;
+}
+
+main article.dos p.ar {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  font-style: italic;
+  font-weight: bold;
+  clear: both;
+}
+
+main article.tres p.ar {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  font-style: italic;
+  font-weight: bold;
+  clear: both;
+}
+
+main article.cuatro p.ar {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  font-style: italic;
+  font-weight: bold;
+  clear: both;
+}
+
+main article.cinco p.ar {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  font-style: italic;
+  font-weight: bold;
+  clear: both;
+}
+
+input {
+  background-color: red;
+  color: white;
+  width: 100px;
+  margin-left: 100px;
+}
+
+article img {
+  float: right;
+
+}
